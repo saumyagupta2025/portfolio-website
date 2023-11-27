@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-color: #161616;
+  --primary-color: #d5fb41;
+  --primary-text-color: #fff;
+  --border-color: #c2d963;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+html {
+  /* font-size: 100%; */
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+}
+
+.app-wrapper {
+  flex-grow: 1;
+}

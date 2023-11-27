@@ -1,0 +1,37 @@
+.about-container {
+  padding: 1rem 0 5rem 0;
+}
+
+.about-heading {
+  color: var(--primary-text-color);
+  text-align: center;
+  padding: 1.5rem 0;
+}
+.about-heading span {
+  color: var(--primary-color);
+}
+
+.information-container {
+  display: flex;
+  align-items: space-between;
+  margin: 2rem 4rem;
+  padding: 0 3rem;
+  gap: 2rem;
+}
+
+.information {
+  color: var(--primary-text-color);
+  line-height: 2rem;
+  padding-right: 1rem;
+}
+
+.information span {
+  color: var(--primary-color);
+}
+.avatar_img {
+  transform: scaleX(-1);
+  height: 20%;
+  width: 20%;
+  padding-top: 1.5rem;
+  margin-left: 3rem;
+}

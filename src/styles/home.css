@@ -1,0 +1,73 @@
+@import "../App.css";
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6rem 5rem;
+  /* gap: 2rem; */
+}
+.hero-greeting-container {
+  margin-top: -10rem;
+}
+
+.hero-greeting {
+  color: var(--primary-text-color);
+  font-weight: 400;
+}
+
+.hero-greeting span {
+  display: inline-block;
+  font-size: 1em;
+  transform-origin: 70% 70%;
+  animation: wave 2s infinite 2s;
+}
+
+.hero-intro span {
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+.hero-intro {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 3.4rem;
+  margin-top: 0.6rem;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+  20%,
+  80% {
+    transform: rotate(-10deg);
+  }
+}
+
+.hero-image-container {
+  /* display: flex; */
+  /* align-items: center; */
+  /* margin-left: 10rem; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-img {
+  /* height: 70%;
+  width: 70%; */
+  width: 85%;
+  height: 85%;
+  margin-left: 2rem;
+  /* align-self: center; */
+}
+
+.image-wrapper {
+  margin-left: 10rem;
+  align-self: flex-end; /* Adjust the value to move the image to the right */
+}

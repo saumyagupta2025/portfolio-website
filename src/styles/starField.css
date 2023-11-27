@@ -1,0 +1,35 @@
+@import "./../App.css";
+
+.star-field {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Send stars to the background */
+  background-color: var(--bg-color);
+}
+
+.star {
+  position: absolute;
+  background-color: #fff; /* Set star color to white */
+  border-radius: 50%; /* Make stars circular */
+  opacity: 0.5; /* Adjust the opacity of the stars */
+  pointer-events: none; /* Stars should not interfere with user interaction */
+}
+
+/* Add animation if you want the stars to twinkle */
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Apply animation to the stars */
+.star:nth-child(odd) {
+  animation: twinkle 3s infinite ease-in-out; /* Adjust animation duration as needed */
+}

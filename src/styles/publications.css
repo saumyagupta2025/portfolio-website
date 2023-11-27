@@ -1,0 +1,16 @@
+@import "./../App.css";
+
+.publications-container {
+  padding: 4rem;
+}
+.publication-heading {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.publication-subtitle {
+  color: var(--primary-text-color);
+  text-align: center;
+  margin-top: 0.8rem;
+  /* text-; */
+}

@@ -1,0 +1,81 @@
+@import "./../App.css";
+
+/* Projects Page Heading */
+.projects_heading_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects_section_heading {
+  color: var(--primary-color);
+  margin-top: 4rem;
+  margin-bottom: 3px;
+}
+.projects_section_heading span {
+  color: var(--primary-text-color);
+}
+.projects_subheading {
+  color: var(--primary-text-color);
+  font-size: 14px;
+}
+
+/* CARD */
+.project_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.05rem solid var(--border-color);
+  border-radius: 8px;
+  /* box-shadow: 0px 2px 10px 0px rgba(232, 253, 150, 0.4); */
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0);
+  margin: 2rem;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.project_demo_img {
+  /* align: center; */
+}
+
+.project_name {
+  color: var(--primary-text-color);
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.project_desc {
+  color: var(--primary-text-color);
+}
+
+.github_link_btn {
+  background-color: var(--border-color);
+  border-style: none;
+  /* border-color: var(--border-color); */
+  border-radius: 3px;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 0.4rem 0.9rem;
+  /* backdrop-filter: blur(10px); */
+
+  /* color: #000; */
+}
+
+.btn {
+  display: flex;
+  align-self: center;
+}
+
+.github_link_btn a {
+  color: #000;
+  text-decoration: none;
+  /* color: ; */
+}
+
+/* ALL PROJECTS GRID */
+
+.all_projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.5rem 6rem;
+}

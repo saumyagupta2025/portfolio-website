@@ -1,0 +1,71 @@
+@import "./../App.css";
+
+.section-container {
+  padding-top: 4rem;
+}
+.skill-heading-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+.skill-heading {
+  color: var(--primary-color);
+}
+.skill-heading span {
+  color: var(--primary-text-color);
+}
+
+.skill-list-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 3rem 10rem;
+}
+
+/* SKILL TILE */
+
+.skill-container {
+  border: 0.06rem solid var(--border-color);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1.5rem 1.5rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 1.5rem 2rem 1rem 2rem;
+  box-shadow: 4px 5px 12px 0px rgba(0, 0, 0);
+}
+.skill-img {
+  height: 50%;
+  width: 50%;
+  padding-bottom: 0.5rem;
+}
+
+.skill-name {
+  padding-top: 0.4rem;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+/* tool list container */
+.tool-list-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 10rem;
+  padding-bottom: 5rem;
+}
+
+.tools-heading-container {
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tools-heading span {
+  color: var(--primary-color);
+}
+.tools-heading {
+  color: var(--primary-text-color);
+}
