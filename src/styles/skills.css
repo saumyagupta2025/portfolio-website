@@ -17,7 +17,7 @@
 
 .skill-list-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(175px, 0.5fr));
   margin: 3rem 10rem;
 }
 
@@ -50,7 +50,7 @@
 /* tool list container */
 .tool-list-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(175px, 0.5fr));
   margin: 0 10rem;
   padding-bottom: 5rem;
 }

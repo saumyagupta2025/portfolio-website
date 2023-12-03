@@ -3,9 +3,7 @@ import "./../../styles/about.css";
 export default function About() {
   return (
     <div className="about-container">
-      <h1 className="about-heading">
-        <span>Know More</span> About Me!
-      </h1>
+      <h1 className="about-heading">Know More About Me!</h1>
       <div className="information-container">
         <div className="information-desc">
           <p className="information">
@@ -34,7 +32,7 @@ export default function About() {
           </p>
         </div>
         <img
-          src="src/assets/avatar.png"
+          src="src/assets/saumya.png"
           alt="Avatar-img"
           className="avatar_img"
         />
