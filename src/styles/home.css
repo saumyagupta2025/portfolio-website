@@ -4,11 +4,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 6rem 5rem;
+  /* margin-top: 5rem;
+  margin-bottom: 5rem; */
+  margin-right: clamp(2rem, 10vw, 6rem);
+  margin-left: clamp(2rem, 10vw, 6rem);
+
   /* gap: 2rem; */
 }
 .hero-greeting-container {
-  margin-top: -10rem;
+  /* margin-top: -10rem; */
 }
 
 .hero-greeting {
@@ -17,13 +21,14 @@
 }
 
 .hero-greeting span {
-  display: inline-block;
   font-size: 1em;
+  display: inline-block;
+  /* transform: scale(-1, 1); */
   transform-origin: 70% 70%;
   animation: wave 2s infinite 2s;
 }
 
-.hero-intro span {
+.hero-intro span:last-of-type {
   color: var(--primary-color);
   font-weight: 400;
 }
@@ -63,11 +68,76 @@
   width: 70%; */
   width: 85%;
   height: 85%;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   /* align-self: center; */
 }
 
 .image-wrapper {
-  margin-left: 10rem;
+  /* margin-left: 10rem; */
   align-self: flex-end; /* Adjust the value to move the image to the right */
+}
+
+/* mobile: 0 - 480px */
+/* tablet : 481 - 767px */
+/* computer: 768 - 1200*/
+/*  wide screen/ tv : >1201 */
+
+/* wide screen */
+@media screen and (max-width: 1200px) {
+}
+
+/* tablet */
+@media screen and (max-width: 767px) {
+  .hero-container {
+    height: clamp(520px, 100vh, 650px);
+  }
+  .hero-intro span {
+    font-size: 2.3rem;
+    text-align: center;
+    max-width: 12ch;
+    font-weight: 800;
+    margin: auto;
+  }
+  .image-wrapper {
+    margin: 0;
+  }
+  .hero-img {
+    margin: auto;
+    width: 60%;
+    display: block;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+  .hero-container {
+    height: clamp(520px, 100vh, 700px);
+  }
+  .hero-greeting {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .hero-intro span {
+    font-size: 2.3rem;
+    text-align: center;
+    /* max-width: 12ch; */
+    font-weight: 800;
+    margin: auto;
+  }
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    /* gap */
+  }
+  .image-wrapper {
+    margin: 0;
+  }
+  .hero-img {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
 }

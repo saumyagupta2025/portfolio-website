@@ -35,3 +35,14 @@
   padding-top: 0.5rem;
   margin-left: 3rem;
 }
+
+@media screen and (max-width: 1200px) {
+}
+
+/* tablet */
+@media screen and (max-width: 767px) {
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+}

@@ -7,10 +7,11 @@ export default function Home() {
       <div className="hero-container">
         <div className="hero-greeting-container">
           <h1 className="hero-greeting">
-            Hi There! <span>👋🏻</span>
+            <span>👋🏻</span>
+            &nbsp; Hi There! I'm
           </h1>
           <h1 className="hero-intro">
-            I'm <span>Saumya Gupta</span>
+            <span>Saumya Gupta</span>
           </h1>
 
           {/* Typewriting */}

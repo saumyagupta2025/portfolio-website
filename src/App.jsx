@@ -45,7 +45,7 @@ const App = () => {
   return (
     <div className="app-container">
       <StarField numStars={100} />
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Projects /> */}
       {/* <Skills /> */}
       <div className="app-wrapper">

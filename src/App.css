@@ -1,7 +1,12 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  padding: 0;
 }
+#root {
+  width: 100vw;
+}
+
 :root {
   --bg-color: #161616;
   --primary-color: #d5fb41;
@@ -13,6 +18,9 @@
 
 body {
   min-height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
 }
 html {
   /* font-size: 100%; */
@@ -23,6 +31,8 @@ html {
 .app-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  /* background-color: #161616; */
   /* height: 100%; */
 }
 
