@@ -1,7 +1,7 @@
 {
   "name": "my-project",
   "homepage": "https://saumyagupta2025.github.io/portfolio-website"
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
