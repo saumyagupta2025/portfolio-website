@@ -1,3 +1,4 @@
+import profileImg from "./assets/1000027331-01.jpg";
 export default function About() {
   return (
     <>
@@ -59,7 +60,7 @@ export default function About() {
           </p>
         </div>
         <img
-          src="src/assets/1000027331-01.jpg"
+          src={profileImg}
           alt="saumya-gupta-img"
           className=" text-white img-saumya"
           style={{
