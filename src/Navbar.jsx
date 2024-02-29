@@ -4,7 +4,7 @@ export default function Navbar() {
   const [opaque, setOpaque] = useState(false);
   useEffect(() => {
     window.onscroll = (event) => {
-      console.log(window.scrollY);
+      // console.log(window.scrollY);
       if (window.scrollY > 220) {
         setOpaque(true);
       } else {

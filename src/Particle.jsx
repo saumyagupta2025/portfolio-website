@@ -17,7 +17,7 @@ export default function Particle() {
       //await loadAll(engine);
       //await loadFull(engine);
       await loadFull(engine);
-      //await loadBasic(engine);
+      // await loadBasic(engine);
     }).then(() => {
       setInit(true);
     });
