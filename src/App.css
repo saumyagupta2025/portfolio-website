@@ -279,14 +279,14 @@
 
 @media screen and (max-width: 440px) {
   .name {
-    font-size: 3.5rem !important;
+    font-size: 3.3rem !important;
   }
   .title {
-    font-size: 1.35rem !important;
+    font-size: 1.2rem !important;
   }
 
   .socials {
-    font-size: 1.8rem !important;
+    font-size: 1.4rem !important;
   }
   .nav-links,
   .my-logo,
