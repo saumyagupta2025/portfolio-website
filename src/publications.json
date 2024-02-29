@@ -1,0 +1,22 @@
+[
+  {
+    "Title": "Predictive Analysis on Histopathological Images using Metaheuristics and Machine Learning Methods",
+    "Publisher": "International Journal of Bioinformatics Research and Applications",
+    "Desc": "Automated histopathological image classification systems have advanced to greater heights as a result of development in digital histopathology for computer-aided diagnosis. Due to the complexity of these images, a high-dimension feature map is generated that makes the process difficult. The aim of this research was to conduct predictive analysis on histopathology images using nature-inspired algorithms and machine learning techniques. Feature extraction methods were applied to determine statistical and texture based features. Furthermore, Whale Optimization Algorithm (WOA), Cat Swarm Optimization (CSO), Lion Optimization Algorithm (LOA), Adaptive Particle Swarm Optimization (APSO), Golden Eagle Optimization (GEO), and Hybrid LOA_CSO (H-LOA_CSO) were used for feature selection for acquiring an optimal subset of features. Classification was performed using SVM and ANN to determine the predictive analysis. Observations show that the H-LOA_CSO algorithm performed best with ANN, giving an accuracy of 98%, while APSO showed the worst performance with both ANN and SVM with an accuracy of 72%.",
+    "Authors": "S. Gupta, A. Ganapathi, U. Sharma, A. Deshwal, S. Kumar, S. Vijh"
+  },
+  {
+    "Title": "Stroke Prediction using Machine Learning Methods",
+    "Desc": "Applied various machine learning models using Python on the dataset taken from Kaggle to predict Stroke, which is the second major cause of deaths worldwide. The data was pre-processed and analysed, oversampled using SMOTE technique, followed by training and testing of the models. The results were than evaluated and the best fit model was found.",
+    "Authors": "S. Gupta, S. Raheja",
+    "Publisher": "12th International Conference on Cloud Computing, Data Science & Engineering (Confluence), 2022, pp. 553-558, doi: 10.1109/Confluence52989.2022.9734197.",
+    "Link": "https://ieeexplore.ieee.org/document/9734197"
+  },
+  {
+    "Title": "Prevalence of GitOps, DevOps in Fast CI/CD Cycles",
+    "Desc": "Discussed the increasing popularity of GitOps in CI/CD along with tools like ArgoCD, Flux, GitKube, JenkinsX, & Helm Operator, with an objective of understanding the Kubernetes GitOps process by day 2 operations, & to access the benefits of implementing GitOps in the Kubernetes environment by implementing Kubernetes GitOps on AWS.",
+    "Publisher": "International Conference on Machine Learning, Big Data, Cloud & Parallel Computing, 2022, pp. 589-596, doi: 10.1109/COM-IT-CON54601.2022.9850786.",
+    "Authors": "S. Gupta, M. Bhatia, M. Memoria and P. Manani",
+    "Link": "https://ieeexplore.ieee.org/document/9850786"
+  }
+]

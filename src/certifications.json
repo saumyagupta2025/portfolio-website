@@ -1,0 +1,46 @@
+[
+  {
+    "Name": "Databricks Lakehouse Fundamentals",
+    "Company": "Databricks",
+    "IssueDate": "Feb 2024",
+    "Link": "https://credentials.databricks.com/952ea6c3-0e61-41a2-a572-a6833d4af811#gs.532b5i",
+    "ImgSrc": "./src/assets/databricks.png"
+  },
+
+  {
+    "Name": "Complete dbt (Data Build Tool) Bootcamp",
+    "Company": "Udemy",
+    "IssueDate": "Nov 2023",
+    "Link": "https://www.udemy.com/certificate/UC-0468d1fb-bd44-4649-87bc-be655caac38f/",
+    "ImgSrc": "./src/assets/dbt.jpeg"
+  },
+  {
+    "Name": "Microsoft Azure Fundamentals (AZ-900)",
+    "Company": "Microsoft",
+    "IssueDate": "May 2023",
+    "Link": "https://www.credly.com/badges/7762b6a1-044e-4a66-8c4f-b0ba76c8e6af/public_url",
+    "ImgSrc": "./src/assets/azure.png"
+  },
+  {
+    "Name": "Machine Learning Specialisation",
+    "Company": "Deeplearning.AI",
+    "IssueDate": "Dec 2023",
+    "Link": "https://www.coursera.org/account/accomplishments/specialization/N5UW6VYHTBRV",
+    "ImgSrc": "./src/assets/ml.jpeg"
+  },
+
+  {
+    "Name": "Mathematics for Machine Learning & Data Science",
+    "Company": "Deeplearning.AI",
+    "IssueDate": "Dec 2023",
+    "Link": "https://www.coursera.org/account/accomplishments/specialization/6S4CD2YM5MPY",
+    "ImgSrc": "./src/assets/math.jpeg"
+  },
+  {
+    "Name": "Python, Bash and SQL Essentials for Data Engineering",
+    "Company": "Duke University",
+    "IssueDate": "April 2023",
+    "Link": "https://www.coursera.org/account/accomplishments/specialization/S3SUKXFKS7PR",
+    "ImgSrc": "./src/assets/bash.jpeg"
+  }
+]

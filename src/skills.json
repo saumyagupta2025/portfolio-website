@@ -1,0 +1,98 @@
+[
+  {
+    "name": "HTML",
+    "path": "../src/assets/HTML.svg"
+  },
+  {
+    "name": "CSS",
+    "path": "../src/assets/css.svg"
+  },
+  {
+    "name": "SASS",
+    "path": "../src/assets/sass.svg"
+  },
+  {
+    "name": "Bootstrap",
+    "path": "../src/assets/bootstrap-5-1.svg"
+  },
+  {
+    "name": "Tailwind",
+    "path": "../src/assets/tailwind-css-2.svg"
+  },
+  {
+    "name": "JavaScript",
+    "path": "../src/assets/javascript.svg"
+  },
+  {
+    "name": "React",
+    "path": "../src/assets/react.svg"
+  },
+  {
+    "name": "Figma",
+    "path": "../src/assets/figma.svg"
+  },
+  {
+    "name": "Node.js",
+    "path": "../src/assets/nodejs-icon.svg"
+  },
+  {
+    "name": "Express JS",
+    "path": "../src/assets/icons8-express-js.svg"
+  },
+  {
+    "name": "Python",
+    "path": "../src/assets/python.svg"
+  },
+  {
+    "name": "Pyspark",
+    "path": "../src/assets/spark.svg"
+  },
+  {
+    "name": "SQL",
+    "path": "../src/assets/sql.svg"
+  },
+  {
+    "name": "Databricks",
+    "path": "../src/assets/databricks.svg"
+  },
+  {
+    "name": "DBT",
+    "path": "../src/assets/dbt-logo-500AB0BAA7-seeklogo.com.png"
+  },
+  {
+    "name": "Git & Github",
+    "path": "../src/assets/github.svg"
+  },
+  {
+    "name": "Java",
+    "path": "../src/assets/java.svg"
+  },
+  {
+    "name": "Azure",
+    "path": "../src/assets/azure.svg"
+  },
+  {
+    "name": "AWS",
+    "path": "../src/assets/aws-logo.png"
+  },
+  {
+    "name": "Docker",
+    "path": "../src/assets/docker.svg"
+  },
+  {
+    "name": "Kubernetes",
+    "path": "../src/assets/kubernetes.svg"
+  },
+  {
+    "name": "Jupyter Notebook",
+    "path": "../src/assets/jupyter.svg"
+  },
+  {
+    "name": "Postman",
+    "path": "../src/assets/postman.svg"
+  },
+  {
+    "name": "VS Code",
+    "path": "../src/assets/visual-studio-code.svg"
+  }
+]
