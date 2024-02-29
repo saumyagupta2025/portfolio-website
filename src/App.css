@@ -27,7 +27,15 @@
 .project:active,
 .certification:active,
 .publication:active,
-.workex:active {
+.workex:active,
+.about:hover,
+.home:hover,
+.skill:hover,
+.project:hover,
+.certification:hover,
+.publication:hover,
+.workex:hover,
+.my-logo:hover {
   color: #0ea5e9;
 }
 
