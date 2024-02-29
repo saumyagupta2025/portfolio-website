@@ -12,7 +12,7 @@
     "Desc": "A machine learning based web application that tells enables users to estimate and predict prices of houses in Bengaluru with an accuracy of 87% based on features like locality, total area, number of bedrooms, etc.",
     "GithubLink": "https://github.com/saumyagupta2025/Bengaluru-House-Price-Prediction-App",
     "Demo": "https://saumyagupta2025-bengaluru-house-price-prediction-app-app-57w1yg.streamlit.app/",
-    "ImgSrc": "./src/assets/project2.avif"
+    "ImgSrc": "src/assets/project2.avif"
   },
 
   {
@@ -20,7 +20,7 @@
     "Desc": "Developed a NLP sentiment analysis model that utilizes Bag-of-Words technique and analyses customer feedback using product reviews in order to identify the positive or negative sentiment with an accuracy of 94% that helps improving customer needs.",
     "GithubLink": "https://github.com/saumyagupta2025/Amazon-Product-Reviews-Sentiment-Analysis",
     "Demo": "",
-    "ImgSrc": "./src/assets/project3.jpeg"
+    "ImgSrc": "src/assets/project3.jpeg"
   },
 
   {
@@ -28,7 +28,7 @@
     "Desc": "Performed customer segmentation with an aim to discover natural groups in the unlabelled mall customer dataset with the help of unsupervised clustering ML algorithms. A comparison was shown between the K-Means, DBSCAN & Hierarchical clustering algorithms.",
     "GithubLink": "",
     "Demo": "",
-    "ImgSrc": "./src/assets/project4.png"
+    "ImgSrc": "src/assets/project4.png"
   },
 
   {
@@ -36,6 +36,6 @@
     "Desc": "Created and deployed a content based movie recommender system on Streamlit cloud that fetches data from TMDB API & recommends movies using cosine similarity scores.",
     "GithubLink": "",
     "Demo": "",
-    "ImgSrc": "./src/assets/project5.jpeg"
+    "ImgSrc": "src/assets/project5.jpeg"
   }
 ]
