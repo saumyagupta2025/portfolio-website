@@ -1,14 +1,14 @@
 {
   "name": "my-project",
-  "homepage": "https://saumyagupta2025.github.io/portfolio-website",
+  "homepage": "https://saumyagupta2025.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

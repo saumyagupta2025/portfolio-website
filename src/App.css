@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* overflow-x: hidden; */
 }
 
 .publication-item:before {
@@ -316,7 +317,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
   .name {
     font-size: 2.8rem !important;
   }
