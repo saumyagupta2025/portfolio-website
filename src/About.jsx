@@ -59,7 +59,7 @@ export default function About() {
           </p>
         </div>
         <img
-          src="../src/assets/1000027331-01.jpg"
+          src="src/assets/1000027331-01.jpg"
           alt="saumya-gupta-img"
           className=" text-white img-saumya"
           style={{
