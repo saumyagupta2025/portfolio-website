@@ -4,7 +4,7 @@
     "Desc": "A  system that helps users  to know  about  their  wellbeing based on  various health  parameters, includes  options  for  prediction  of disease   based   on  symptoms,  prediction  of  brain   stroke,  heart   attack,  diabetes,  &  tuberculosis  using  chest X-Ray images.",
     "GithubLink": "https://github.com/saumyagupta2025/Health-Information_and_Diagnostic-System",
     "Demo": "https://saumyagupta2025-health-information-and-diagnostic-sy-app-6wtwbh.streamlit.app/",
-    "ImgSrc": "/src/assets/project1.png"
+    "ImgSrc": "src/assets/project1.png"
   },
 
   {

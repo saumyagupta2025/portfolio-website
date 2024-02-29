@@ -37,6 +37,7 @@
 .workex:hover,
 .my-logo:hover {
   color: #0ea5e9;
+  cursor: pointer;
 }
 
 .nav-links .active {

@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <>
       <div
-        id="skill-container "
+        id="skill-container"
         className="skill-container pb-20 pt-24 bg-slate-950"
         style={{ zIndex: 100, position: "relative" }}
       >
