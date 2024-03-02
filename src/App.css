@@ -13,13 +13,18 @@
   left: 0;
 }
 
+.project-container,
+.card-container,
+.container {
+  transition: all 0.3s ease;
+}
+
 .project-container:hover,
 .card-container:hover,
 .container:hover {
   box-shadow: 0 14px 28px rgba(51, 65, 85, 0.25),
     0 10px 10px rgba(51, 65, 85, 0.22);
   transform: scaleY(1.05) scaleX(1.05);
-  transition: all 0.3s ease;
 }
 .about:active,
 .home:active,
