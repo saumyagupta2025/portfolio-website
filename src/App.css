@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 .publication-item:before {
@@ -240,6 +240,10 @@
   .nav-links,
   .my-logo {
     font-size: 1.1rem !important;
+  }
+  .skill-container {
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
   }
 }
 
